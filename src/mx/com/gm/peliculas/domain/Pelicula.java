@@ -1,6 +1,8 @@
 package mx.com.gm.peliculas.domain;
 
-public class Pelicula {
+import java.io.Serializable;
+
+public class Pelicula implements Serializable {
     private String nombre;
     
     public Pelicula()
