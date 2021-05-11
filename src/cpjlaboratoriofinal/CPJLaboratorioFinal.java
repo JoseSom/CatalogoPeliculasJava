@@ -1,14 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package cpjlaboratoriofinal;
 
-/**
- *
- * @author Luis
- */
+import java.util.Scanner;
+import mx.com.gm.peliculas.negocio.CatalogoPeliculas;
+
 public class CPJLaboratorioFinal {
-    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int opcion;
+        String nombreArchivo;
+        CatalogoPeliculas catalogoPeliculas;
+    }
 }
